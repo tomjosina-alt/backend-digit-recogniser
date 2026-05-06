@@ -1,0 +1,6 @@
+{
+  "name": "MNIST Digit Recognizer",
+  "description": "A machine learning application for handwriting recognition, featuring a scikit-learn backend and a React drawing interface.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
