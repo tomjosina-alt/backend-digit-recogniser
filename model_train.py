@@ -14,7 +14,7 @@ import os
 def train_model():
     print("Loading MNIST dataset... (This might take a moment)")
     # Load data from https://www.openml.org/d/554
-    X, y = fetch_openml('mnist_784', version=1, return_X_y=True, as_frame=False, parser='auto')
+    X, y = fetch_openml('mnist_784', version=1, return_X_y=True, as_frame=False, parser='liac-arff')
     
     # Scale pixels to [0, 1]
     X = X / 255.0
